@@ -1,0 +1,5 @@
+verilog work "../src/D_FFR.v"
+verilog work "../src/one_pulse.v"
+verilog work "../src/D_FF.v"
+verilog work "../src/DIV_N.v"
+verilog work "../src/button_press_unit.v"

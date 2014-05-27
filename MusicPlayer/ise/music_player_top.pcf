@@ -1,0 +1,213 @@
+//! **************************************************************************
+// Written by: Map J.36 on Tue May 27 11:38:23 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "play_button" LOCATE = SITE "AH1" LEVEL 1;
+COMP "SData_In" LOCATE = SITE "E9" LEVEL 1;
+COMP "AC97Clk" LOCATE = SITE "F8" LEVEL 1;
+COMP "AC97Reset_n" LOCATE = SITE "E6" LEVEL 1;
+COMP "song_led<0>" LOCATE = SITE "AA6" LEVEL 1;
+COMP "song_led<1>" LOCATE = SITE "AA5" LEVEL 1;
+COMP "Sync" LOCATE = SITE "F7" LEVEL 1;
+COMP "SData_Out" LOCATE = SITE "E8" LEVEL 1;
+COMP "play_led" LOCATE = SITE "AC4" LEVEL 1;
+COMP "clk" LOCATE = SITE "AJ15" LEVEL 1;
+COMP "next_button" LOCATE = SITE "AH2" LEVEL 1;
+COMP "reset_n" LOCATE = SITE "AG5" LEVEL 1;
+NET "AC97Clk_BUFGP/IBUFG" BEL "AC97Clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+TIMEGRP clk = BEL "next_button_press_unit/one_pulse/last_value_storage/q_0"
+        BEL "next_button_press_unit/debounce/counter/q_2" BEL
+        "next_button_press_unit/debounce/counter/q_1" BEL
+        "next_button_press_unit/debounce/counter/q_0" BEL
+        "next_button_press_unit/debounce/state/q_1" BEL
+        "next_button_press_unit/debounce/state/q_0" BEL
+        "music_player_inst/beat_generator/co" BEL
+        "music_player_inst/mcu/song_0" BEL "music_player_inst/mcu/song_1" BEL
+        "music_player_inst/mcu/play" BEL "music_player_inst/mcu/reset_play"
+        BEL "music_player_inst/mcu/state_FFd2" BEL
+        "next_button_press_unit/div_inst/q_0" BEL
+        "next_button_press_unit/div_inst/q_1" BEL
+        "next_button_press_unit/div_inst/q_2" BEL
+        "next_button_press_unit/div_inst/q_3" BEL
+        "next_button_press_unit/div_inst/q_4" BEL
+        "next_button_press_unit/div_inst/q_5" BEL
+        "next_button_press_unit/div_inst/q_6" BEL
+        "next_button_press_unit/div_inst/q_7" BEL
+        "next_button_press_unit/div_inst/q_8" BEL
+        "next_button_press_unit/div_inst/q_9" BEL
+        "next_button_press_unit/div_inst/q_10" BEL
+        "next_button_press_unit/div_inst/q_11" BEL
+        "next_button_press_unit/div_inst/q_12" BEL
+        "next_button_press_unit/div_inst/q_13" BEL
+        "next_button_press_unit/div_inst/q_14" BEL
+        "next_button_press_unit/div_inst/q_15" BEL
+        "next_button_press_unit/div_inst/q_16" BEL
+        "music_player_inst/beat_generator/count_0" BEL
+        "music_player_inst/beat_generator/count_1" BEL
+        "music_player_inst/beat_generator/count_2" BEL
+        "music_player_inst/beat_generator/count_3" BEL
+        "music_player_inst/beat_generator/count_4" BEL
+        "music_player_inst/beat_generator/count_5" BEL
+        "music_player_inst/beat_generator/count_6" BEL
+        "music_player_inst/beat_generator/count_7" BEL
+        "music_player_inst/beat_generator/count_8" BEL
+        "music_player_inst/beat_generator/count_9" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_0" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_1" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_2" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_3" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_4" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_5" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_6" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_7" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_8" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_9" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_10" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_11" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_12" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_13" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_14" BEL
+        "music_player_inst/codec_conditioner/next_sample_latch/q_15" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_0" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_1" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_2" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_3" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_4" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_5" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_6" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_7" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_8" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_9" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_10" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_11" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_12" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_13" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_14" BEL
+        "music_player_inst/codec_conditioner/current_sample_latch/q_15" BEL
+        "music_player_inst/codec_conditioner/New_Frame_state/q_0" BEL
+        "music_player_inst/song_reader/state_FFd2" BEL
+        "music_player_inst/song_reader/song_end_pulse/last_value_storage/q_0"
+        BEL "music_player_inst/song_reader/new_note" BEL
+        "music_player_inst/song_reader/song_temp_done" BEL
+        "music_player_inst/song_reader/real_addr_6" BEL
+        "music_player_inst/song_reader/real_addr_5" BEL
+        "music_player_inst/song_reader/real_addr_4" BEL
+        "music_player_inst/song_reader/real_addr_3" BEL
+        "music_player_inst/song_reader/real_addr_2" BEL
+        "music_player_inst/song_reader/real_addr_1" BEL
+        "music_player_inst/song_reader/real_addr_0" BEL
+        "music_player_inst/song_reader/sound_addr_6" BEL
+        "music_player_inst/song_reader/sound_addr_5" BEL
+        "music_player_inst/song_reader/sound_addr_4" BEL
+        "music_player_inst/song_reader/sound_addr_3" BEL
+        "music_player_inst/song_reader/sound_addr_2" BEL
+        "music_player_inst/song_reader/sound_addr_1" BEL
+        "music_player_inst/song_reader/sound_addr_0" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_0" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_1" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_2" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_3" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_4" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_5" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_6" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_7" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_8" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_9" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_10" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_11" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_12" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_13" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_14" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/dout_15" BEL
+        "music_player_inst/note_player/sine_reader_inst/_sample_ready/q_0" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_0" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_1" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_2" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_3" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_4" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_5" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_6" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_7" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_8" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_9" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_10" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_11" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_12" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_13" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_14" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_15" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_16" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_17" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_18" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_19" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_20" BEL
+        "music_player_inst/note_player/sine_reader_inst/raw_addr_21" BEL
+        "music_player_inst/note_player/count_number_5" BEL
+        "music_player_inst/note_player/count_number_4" BEL
+        "music_player_inst/note_player/count_number_3" BEL
+        "music_player_inst/note_player/count_number_2" BEL
+        "music_player_inst/note_player/count_number_1" BEL
+        "music_player_inst/note_player/count_number_0" BEL
+        "music_player_inst/note_player/timer_done" BEL
+        "music_player_inst/note_player/timer_clear" BEL
+        "music_player_inst/note_player/done_with_note" BEL
+        "music_player_inst/note_player/note_5" BEL
+        "music_player_inst/note_player/note_4" BEL
+        "music_player_inst/note_player/note_3" BEL
+        "music_player_inst/note_player/note_2" BEL
+        "music_player_inst/note_player/note_1" BEL
+        "music_player_inst/note_player/note_0" BEL
+        "music_player_inst/mcu/state_FFd1" BEL
+        "music_player_inst/mcu/state_FFd3" BEL
+        "music_player_inst/song_reader/state_FFd1" BEL
+        "music_player_inst/note_player/state_1" BEL
+        "music_player_inst/note_player/state_0" BEL
+        "music_player_inst/song_reader/new_rom/Mrom__varindex00001.A" BEL
+        "music_player_inst/note_player/sine_reader_inst/rom/Mrom__varindex00001.A"
+        BEL "music_player_inst/note_player/rom_inst/Mrom__varindex00001.A" BEL
+        "next_button_press_unit/ff2/Mshreg_q_0/SRL16E" BEL
+        "next_button_press_unit/ff2/q_0" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_15" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_15" BEL
+        "ac97_if_01/new_frame_i_ClkIn" BEL "ac97_if_01/frame_3" BEL
+        "ac97_if_01/frame_2" BEL "ac97_if_01/frame_1" BEL
+        "ac97_if_01/reset_counter_9" BEL "ac97_if_01/AC97Reset_n_i" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_0" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_1" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_2" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_3" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_4" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_5" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_6" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_7" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_8" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_9" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_10" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_11" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_12" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_13" BEL
+        "ac97_if_01/pcm_playback_right_ClkIn_14" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_0" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_1" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_2" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_3" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_4" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_5" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_6" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_7" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_8" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_9" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_10" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_11" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_12" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_13" BEL
+        "ac97_if_01/pcm_playback_left_ClkIn_14" BEL
+        "ac97_if_01/reset_counter_10" BEL "ac97_if_01/reset_counter_0" BEL
+        "ac97_if_01/reset_counter_1" BEL "ac97_if_01/reset_counter_2" BEL
+        "ac97_if_01/reset_counter_3" BEL "ac97_if_01/reset_counter_4" BEL
+        "ac97_if_01/reset_counter_5" BEL "ac97_if_01/reset_counter_6" BEL
+        "ac97_if_01/reset_counter_7" BEL "ac97_if_01/reset_counter_8";
+TS_clock = PERIOD TIMEGRP "clk" 10 ns HIGH 50%;
+SCHEMATIC END;

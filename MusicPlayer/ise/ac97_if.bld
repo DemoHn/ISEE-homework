@@ -1,0 +1,65 @@
+Release 9.2i ngdbuild J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx92i\bin\nt\ngdbuild.exe -ise
+C:/DSP/MusicPlayer/ise/MusicPlayer.ise -intstyle ise -dd _ngo -nt timestamp -uc
+C:/DSP/MusicPlayer/src/music_player_top.ucf -p xc2vp30-ff896-7 ac97_if.ngc
+ac97_if.ngd
+
+Reading NGO file "C:/DSP/MusicPlayer/ise/ac97_if.ngc" ...
+
+Applying constraints in "C:/DSP/MusicPlayer/src/music_player_top.ucf" to the
+design...
+ERROR:NgdBuild:756 - "C:/DSP/MusicPlayer/src/music_player_top.ucf" Line 2: Could
+   not find net(s) 'clk' in the design.  To suppress this error specify the
+   correct net name or remove the constraint.
+ERROR:NgdBuild:755 - "C:/DSP/MusicPlayer/src/music_player_top.ucf" Line 5: Could
+   not find net(s) 'song_led<0>' in the design.  To suppress this error specify
+   the correct net name or remove the constraint.  The 'Allow Unmatched LOC
+   Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:NgdBuild:755 - "C:/DSP/MusicPlayer/src/music_player_top.ucf" Line 6: Could
+   not find net(s) 'song_led<1>' in the design.  To suppress this error specify
+   the correct net name or remove the constraint.  The 'Allow Unmatched LOC
+   Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:NgdBuild:755 - "C:/DSP/MusicPlayer/src/music_player_top.ucf" Line 13:
+   Could not find net(s) 'clk' in the design.  To suppress this error specify
+   the correct net name or remove the constraint.  The 'Allow Unmatched LOC
+   Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:NgdBuild:755 - "C:/DSP/MusicPlayer/src/music_player_top.ucf" Line 14:
+   Could not find net(s) 'next_button' in the design.  To suppress this error
+   specify the correct net name or remove the constraint.  The 'Allow Unmatched
+   LOC Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:NgdBuild:755 - "C:/DSP/MusicPlayer/src/music_player_top.ucf" Line 15:
+   Could not find net(s) 'play_button' in the design.  To suppress this error
+   specify the correct net name or remove the constraint.  The 'Allow Unmatched
+   LOC Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:NgdBuild:755 - "C:/DSP/MusicPlayer/src/music_player_top.ucf" Line 16:
+   Could not find net(s) 'play_led' in the design.  To suppress this error
+   specify the correct net name or remove the constraint.  The 'Allow Unmatched
+   LOC Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:NgdBuild:755 - "C:/DSP/MusicPlayer/src/music_player_top.ucf" Line 17:
+   Could not find net(s) 'reset_n' in the design.  To suppress this error
+   specify the correct net name or remove the constraint.  The 'Allow Unmatched
+   LOC Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:NgdBuild:755 - "C:/DSP/MusicPlayer/src/music_player_top.ucf" Line 20:
+   Could not find net(s) 'song_led[0]' in the design.  To suppress this error
+   specify the correct net name or remove the constraint.  The 'Allow Unmatched
+   LOC Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:NgdBuild:755 - "C:/DSP/MusicPlayer/src/music_player_top.ucf" Line 21:
+   Could not find net(s) 'song_led[1]' in the design.  To suppress this error
+   specify the correct net name or remove the constraint.  The 'Allow Unmatched
+   LOC Constraints' ISE property can also be set ( -aul switch for command line
+   users).
+ERROR:Parsers:11 - Encountered unrecognized constraint while parsing.
+ERROR:NgdBuild:19 - Errors found while parsing constraint file
+   "C:/DSP/MusicPlayer/src/music_player_top.ucf".
+
+Writing NGDBUILD log file "ac97_if.bld"...

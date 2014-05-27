@@ -1,0 +1,148 @@
+C:/DSP/MusicPlayer/src/song_reader_tb.v {1 {vlog -work work C:/DSP/MusicPlayer/src/song_reader_tb.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module song_reader_tb_v
+
+Top level modules:
+	song_reader_tb_v
+
+} {} {}} C:/DSP/MusicPlayer/src/D_FFRE.v {1 {vlog -work work C:/DSP/MusicPlayer/src/D_FFRE.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module D_FFRE
+
+Top level modules:
+	D_FFRE
+
+} {} {}} C:/DSP/MusicPlayer/src/note_player_tb.v {1 {vlog -work work C:/DSP/MusicPlayer/src/note_player_tb.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module note_player_tb_v
+
+Top level modules:
+	note_player_tb_v
+
+} {} {}} C:/DSP/MusicPlayer/src/music_player_top.v {1 {vlog -work work C:/DSP/MusicPlayer/src/music_player_top.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module music_player_top
+
+Top level modules:
+	music_player_top
+
+} {} {}} C:/DSP/MusicPlayer/src/frequency_rom.v {1 {vlog -work work C:/DSP/MusicPlayer/src/frequency_rom.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module frequency_rom
+
+Top level modules:
+	frequency_rom
+
+} {} {}} C:/DSP/MusicPlayer/src/D_FFR.v {1 {vlog -work work C:/DSP/MusicPlayer/src/D_FFR.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module D_FFR
+
+Top level modules:
+	D_FFR
+
+} {} {}} C:/DSP/MusicPlayer/src/mcu_tb.v {1 {vlog -work work C:/DSP/MusicPlayer/src/mcu_tb.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module mcu_tb_v
+
+Top level modules:
+	mcu_tb_v
+
+} {} {}} C:/DSP/MusicPlayer/src/ac97_if.v {1 {vlog -work work C:/DSP/MusicPlayer/src/ac97_if.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module ac97_if
+
+Top level modules:
+	ac97_if
+
+} {} {}} C:/DSP/MusicPlayer/src/codec_conditioner.v {1 {vlog -work work C:/DSP/MusicPlayer/src/codec_conditioner.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module codec_conditioner
+
+Top level modules:
+	codec_conditioner
+
+} {} {}} C:/DSP/MusicPlayer/src/song_rom.v {1 {vlog -work work C:/DSP/MusicPlayer/src/song_rom.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module song_rom
+
+Top level modules:
+	song_rom
+
+} {} {}} C:/DSP/MusicPlayer/src/sine_reader_tb.v {1 {vlog -work work C:/DSP/MusicPlayer/src/sine_reader_tb.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module sine_reader_tb_v
+
+Top level modules:
+	sine_reader_tb_v
+
+} {} {}} C:/DSP/MusicPlayer/src/button_press_unit.v {1 {vlog -work work C:/DSP/MusicPlayer/src/button_press_unit.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module button_press_unit
+
+Top level modules:
+	button_press_unit
+
+} {} {}} C:/DSP/MusicPlayer/src/D_FF.v {1 {vlog -work work C:/DSP/MusicPlayer/src/D_FF.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module D_FF
+
+Top level modules:
+	D_FF
+
+} {} {}} C:/DSP/MusicPlayer/src/debouncer.v {1 {vlog -work work C:/DSP/MusicPlayer/src/debouncer.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module debouncer
+
+Top level modules:
+	debouncer
+
+} {} {}} C:/DSP/MusicPlayer/src/DIV_N.v {1 {vlog -work work C:/DSP/MusicPlayer/src/DIV_N.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module DIV_N
+
+Top level modules:
+	DIV_N
+
+} {} {}} C:/DSP/MusicPlayer/src/sine_reader.v {1 {vlog -work work C:/DSP/MusicPlayer/src/sine_reader.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module sine_reader
+
+Top level modules:
+	sine_reader
+
+} {} {}} C:/DSP/MusicPlayer/src/music_player_tb.v {1 {vlog -work work C:/DSP/MusicPlayer/src/music_player_tb.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module music_player_tb_v
+
+Top level modules:
+	music_player_tb_v
+
+} {} {}} C:/DSP/MusicPlayer/src/one_pulse.v {1 {vlog -work work C:/DSP/MusicPlayer/src/one_pulse.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module one_pulse
+
+Top level modules:
+	one_pulse
+
+} {} {}} C:/DSP/MusicPlayer/src/beat_generator.v {1 {vlog -work work C:/DSP/MusicPlayer/src/beat_generator.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module beat_generator
+
+Top level modules:
+	beat_generator
+
+} {} {}} C:/DSP/MusicPlayer/src/sine_rom.v {1 {vlog -work work C:/DSP/MusicPlayer/src/sine_rom.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module sine_rom
+
+Top level modules:
+	sine_rom
+
+} {} {}} C:/DSP/MusicPlayer/src/music_player.v {1 {vlog -work work C:/DSP/MusicPlayer/src/music_player.v
+Model Technology ModelSim SE vlog 6.0c Compiler 2005.02 Feb  2 2005
+-- Compiling module music_player
+
+Top level modules:
+	music_player
+
+} {} {}}

@@ -1,0 +1,1 @@
+ngdbuild -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -dd _ngo -nt timestamp -uc "C:/DSP/MusicPlayer/src/music_player_top.ucf" -p xc2vp30-ff896-7 "ac97_if.ngc" ac97_if.ngd

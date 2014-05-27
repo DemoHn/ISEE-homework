@@ -1,0 +1,29 @@
+# Current time Mon May 12 14:13:26 2014
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.0c"
+# Version = "2005.02"
+# Date = "Feb  2 2005"
+# Platform = win32
+# 0    0x00655a70: '<unknown (@0x655a70)>'
+# 1    0x00655a5d: '<unknown (@0x655a5d)>'
+# 2    0x00655a5d: '<unknown (@0x655a5d)>'
+# 3    0x006563fa: '<unknown (@0x6563fa)>'
+# 4    0x00656105: '<unknown (@0x656105)>'
+# 5    0x00577411: '<unknown (@0x577411)>'
+# 6    0x6600c5db: 'TclInvokeStringCommand + 0x6b' in 'c:\modeltech_6.0c\win32\tcl84.dll'
+# 7    0x6600d3a0: 'TclEvalObjvInternal + 0x230' in 'c:\modeltech_6.0c\win32\tcl84.dll'
+# 8    0x6600db2e: 'Tcl_EvalEx + 0x17e' in 'c:\modeltech_6.0c\win32\tcl84.dll'
+# 9    0x6600deb6: 'Tcl_Eval + 0x16' in 'c:\modeltech_6.0c\win32\tcl84.dll'
+# 10   0x6600efbc: 'Tcl_GlobalEval + 0x1c' in 'c:\modeltech_6.0c\win32\tcl84.dll'
+# 11   0x0062005e: '<unknown (@0x62005e)>'
+# 12   0x6603cb15: 'Tcl_NotifyChannel + 0xc5' in 'c:\modeltech_6.0c\win32\tcl84.dll'
+# 13   0x0062452d: '<unknown (@0x62452d)>'
+# 14   0x66049ef0: 'Tcl_ServiceEvent + 0x60' in 'c:\modeltech_6.0c\win32\tcl84.dll'
+# 15   0x6604a161: 'Tcl_DoOneEvent + 0x111' in 'c:\modeltech_6.0c\win32\tcl84.dll'
+# 16   0x00643bcc: '<unknown (@0x643bcc)>'
+# 17   0x0056c209: '<unknown (@0x56c209)>'
+# 18   0x00527f87: '<unknown (@0x527f87)>'
+# End of Stack Trace
+
+

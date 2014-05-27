@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="259" delta="unknown" ><arg fmt="%s" index="1">&quot;../src/one_pulse.v&quot; line 22 </arg>Connection to input port &apos;<arg fmt="%s" index="2">r</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="unknown" ><arg fmt="%s" index="1">&quot;../src/music_player.v&quot; line 67 </arg>Connection to input port &apos;<arg fmt="%s" index="2">song</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="unknown" ><arg fmt="%s" index="1">&quot;../src/one_pulse.v&quot; line 22 </arg>Connection to input port &apos;<arg fmt="%s" index="2">r</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="unknown" ><arg fmt="%s" index="1">&quot;../src/sine_reader.v&quot; line 33 </arg>Connection to input port &apos;<arg fmt="%s" index="2">en</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="unknown" ><arg fmt="%s" index="1">&quot;../src/sine_reader.v&quot; line 33 </arg>Connection to input port &apos;<arg fmt="%s" index="2">r</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="unknown" ><arg fmt="%s" index="1">&quot;../src/music_player.v&quot; line 105 </arg>Connection to input port &apos;<arg fmt="%s" index="2">clear</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">../src/ac97_if.v</arg>&quot; line <arg fmt="%d" index="2">76</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ac97_if</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">sample_temp_out</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="2734" delta="unknown" >Property &quot;<arg fmt="%s" index="1">use_dsp48</arg>&quot; is not applicable for this technology.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">new_sample_generated</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="info" file="Xst" num="2694" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">sine_reader</arg>&gt; : The ROM &lt;<arg fmt="%s" index="2">rom/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="3">final_addr</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2694" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">song_reader</arg>&gt; : The ROM &lt;<arg fmt="%s" index="2">new_rom/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="3">new_rom/dout</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2694" delta="unknown" >Unit &lt;<arg fmt="%s" index="1">note_player</arg>&gt; : The ROM &lt;<arg fmt="%s" index="2">rom_inst/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="3">rom_inst/dout</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">startup_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ac97_if_01</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;ac97_core_I/ac97_timing_I_1/FD_I_start_from_reset&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">ac97_core_I/ac97_timing_I_1/slotnum_i_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ac97_if_01</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;ac97_core_I/ac97_timing_I_1/slotnum_i_0_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">startup_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ac97_if_01</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;ac97_core_I/ac97_timing_I_1/FD_I_start_from_reset&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">ac97_core_I/ac97_timing_I_1/slotnum_i_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ac97_if_01</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;ac97_core_I/ac97_timing_I_1/slotnum_i_0_1&gt; </arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,52 @@
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+ngdbuild -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -dd _ngo -nt timestamp -uc "C:/DSP/MusicPlayer/src/music_player_top.ucf" -p xc2vp30-ff896-7 "music_player_top.ngc" music_player_top.ngd
+map -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o music_player_top_map.ncd music_player_top.ngd music_player_top.pcf
+par -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -w -intstyle ise -ol std -t 1 music_player_top_map.ncd music_player_top.ncd music_player_top.pcf
+trce -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -e 3 -s 7 -xml music_player_top music_player_top.ncd -o music_player_top.twr music_player_top.pcf -ucf C:/DSP/MusicPlayer/src/music_player_top.ucf
+bitgen -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -f music_player_top.ut music_player_top.ncd
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+ngdbuild -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -dd _ngo -nt timestamp -uc "C:/DSP/MusicPlayer/src/music_player_top.ucf" -p xc2vp30-ff896-7 "music_player_top.ngc" music_player_top.ngd
+map -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o music_player_top_map.ncd music_player_top.ngd music_player_top.pcf
+par -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -w -intstyle ise -ol std -t 1 music_player_top_map.ncd music_player_top.ncd music_player_top.pcf
+trce -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -e 3 -s 7 -xml music_player_top music_player_top.ncd -o music_player_top.twr music_player_top.pcf -ucf C:/DSP/MusicPlayer/src/music_player_top.ucf
+bitgen -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -f music_player_top.ut music_player_top.ncd
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+ngdbuild -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -dd _ngo -nt timestamp -uc "C:/DSP/MusicPlayer/src/music_player_top.ucf" -p xc2vp30-ff896-7 "music_player_top.ngc" music_player_top.ngd
+map -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o music_player_top_map.ncd music_player_top.ngd music_player_top.pcf
+par -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -w -intstyle ise -ol std -t 1 music_player_top_map.ncd music_player_top.ncd music_player_top.pcf
+trce -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -e 3 -s 7 -xml music_player_top music_player_top.ncd -o music_player_top.twr music_player_top.pcf -ucf C:/DSP/MusicPlayer/src/music_player_top.ucf
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+ngdbuild -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -dd _ngo -nt timestamp -uc "C:/DSP/MusicPlayer/src/music_player_top.ucf" -p xc2vp30-ff896-7 "music_player_top.ngc" music_player_top.ngd
+map -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o music_player_top_map.ncd music_player_top.ngd music_player_top.pcf
+par -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -w -intstyle ise -ol std -t 1 music_player_top_map.ncd music_player_top.ncd music_player_top.pcf
+trce -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -e 3 -s 7 -xml music_player_top music_player_top.ncd -o music_player_top.twr music_player_top.pcf -ucf C:/DSP/MusicPlayer/src/music_player_top.ucf
+bitgen -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -f music_player_top.ut music_player_top.ncd
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+ngdbuild -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -dd _ngo -nt timestamp -uc "C:/DSP/MusicPlayer/src/music_player_top.ucf" -p xc2vp30-ff896-7 "music_player_top.ngc" music_player_top.ngd
+map -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o music_player_top_map.ncd music_player_top.ngd music_player_top.pcf
+par -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -w -intstyle ise -ol std -t 1 music_player_top_map.ncd music_player_top.ncd music_player_top.pcf
+trce -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -e 3 -s 7 -xml music_player_top music_player_top.ncd -o music_player_top.twr music_player_top.pcf -ucf C:/DSP/MusicPlayer/src/music_player_top.ucf
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+ngdbuild -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -dd _ngo -nt timestamp -uc "C:/DSP/MusicPlayer/src/music_player_top.ucf" -p xc2vp30-ff896-7 "music_player_top.ngc" music_player_top.ngd
+map -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o music_player_top_map.ncd music_player_top.ngd music_player_top.pcf
+par -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -w -intstyle ise -ol std -t 1 music_player_top_map.ncd music_player_top.ncd music_player_top.pcf
+trce -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -e 3 -s 7 -xml music_player_top music_player_top.ncd -o music_player_top.twr music_player_top.pcf -ucf C:/DSP/MusicPlayer/src/music_player_top.ucf
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+ngdbuild -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -dd _ngo -nt timestamp -uc "C:/DSP/MusicPlayer/src/music_player_top.ucf" -p xc2vp30-ff896-7 "music_player_top.ngc" music_player_top.ngd
+map -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o music_player_top_map.ncd music_player_top.ngd music_player_top.pcf
+par -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -w -intstyle ise -ol std -t 1 music_player_top_map.ncd music_player_top.ncd music_player_top.pcf
+trce -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -e 3 -s 7 -xml music_player_top music_player_top.ncd -o music_player_top.twr music_player_top.pcf -ucf C:/DSP/MusicPlayer/src/music_player_top.ucf
+xst -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -ifn music_player_top.xst -ofn music_player_top.syr
+ngdbuild -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -dd _ngo -nt timestamp -uc "C:/DSP/MusicPlayer/src/music_player_top.ucf" -p xc2vp30-ff896-7 "music_player_top.ngc" music_player_top.ngd
+map -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o music_player_top_map.ncd music_player_top.ngd music_player_top.pcf
+par -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -w -intstyle ise -ol std -t 1 music_player_top_map.ncd music_player_top.ncd music_player_top.pcf
+trce -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -e 3 -s 7 -xml music_player_top music_player_top.ncd -o music_player_top.twr music_player_top.pcf -ucf C:/DSP/MusicPlayer/src/music_player_top.ucf
+bitgen -ise "C:/DSP/MusicPlayer/ise/MusicPlayer.ise" -intstyle ise -f music_player_top.ut music_player_top.ncd

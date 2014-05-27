@@ -1,0 +1,320 @@
+m255
+13
+cModel Technology
+dC:\Modeltech_6.0c\examples
+vac97_if
+I4ioIEWcU:gTjLn5id:m1b3
+VK<ofdN5U85:<:eR;N=;lI1
+dC:\DSP\MusicPlayer\sim
+w1394031480
+FC:/DSP/MusicPlayer/src/ac97_if.v
+L0 6
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vbeat_generater
+I2]Fozzo_fYMK^I=BBPaLb2
+V=;Je8zSK6Af1[ISX@b2QW2
+dC:\DSP\MusicPlayer\sim
+w1401090065
+FC:/DSP/MusicPlayer/src/beat_generater.v
+L0 1
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vbeat_generator
+I8S2>>>jNNF]<8XHaR1g>`0
+VH15DI64^=ecmz@7=GfEMK1
+dC:\DSP\MusicPlayer\sim
+w1401090093
+FC:/DSP/MusicPlayer/src/beat_generator.v
+L0 1
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vbutton_press_unit
+IP[FnVe51H@2V52Ya<z:k`3
+V3@AM`9z4=MLCTfH8281HO2
+dC:\DSP\MusicPlayer\sim
+w1399884472
+FC:/DSP/MusicPlayer/src/button_press_unit.v
+L0 4
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vcodec_conditioner
+I7V:B@f4V@SKh0mCc[F_kY0
+Vnhdf3[=5ZFTb;NIPAcS]P1
+dC:\DSP\MusicPlayer\sim
+w1394031480
+FC:/DSP/MusicPlayer/src/codec_conditioner.v
+L0 2
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vD_FF
+I>6M01T^ROJbaM6QD98mVC1
+V=oFEE1_GGV?fzTiCKHm6k0
+dC:\DSP\MusicPlayer\sim
+w1394031480
+FC:/DSP/MusicPlayer/src/D_FF.v
+L0 4
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+n@d_@f@f
+vD_FFR
+I5d?7h;omc8?YDJl:66glF0
+VUkiUOWoT6dAS@c35CA1en2
+dC:\DSP\MusicPlayer\sim
+w1394031480
+FC:/DSP/MusicPlayer/src/D_FFR.v
+L0 4
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+n@d_@f@f@r
+vD_FFRE
+IWzOf;BdET]194Alz==0Yh2
+VjC0;9@lBJUN@M4PVATAgT2
+dC:\DSP\MusicPlayer\sim
+w1394031480
+FC:/DSP/MusicPlayer/src/D_FFRE.v
+L0 1
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+n@d_@f@f@r@e
+vdebouncer
+I9]kDa9Z41kZ1=NR]Y`ED_0
+V6RCS[c0^`L4YbIQ;n=24b2
+dC:\DSP\MusicPlayer\sim
+w1394031480
+FC:/DSP/MusicPlayer/src/debouncer.v
+L0 7
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vDIV_N
+I04g^TC7ChJeFZ9QhKd`k>1
+V0?42fnBG3l=9B96cKomlV2
+dC:\DSP\MusicPlayer\sim
+w1394031480
+FC:/DSP/MusicPlayer/src/DIV_N.v
+L0 21
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+n@d@i@v_@n
+vfrequency_rom
+IoFRXMaZYbZbmEXjHO6n0;1
+VK8<OiY=a@G_8V6=BLAOe00
+dC:\DSP\MusicPlayer\sim
+w1394031480
+FC:/DSP/MusicPlayer/src/frequency_rom.v
+L0 1
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vmcu
+I9[21dKeX_^GARgWL67WU]2
+VcET9z?dW82^Y4]8;?2jRO3
+dC:\DSP\MusicPlayer\sim
+w1401159861
+FC:/DSP/MusicPlayer/src/mcu.v
+L0 1
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vmcu_tb_v
+I]g<oJl3HFPB=9aF^6XEX:0
+VVmGLX9nUBMl?QBcJz:1b33
+dC:\DSP\MusicPlayer\sim
+w1394031480
+FC:/DSP/MusicPlayer/src/mcu_tb.v
+L0 9
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vmusic_player
+I[N]<db]hlj3do3ao=5Boz1
+V[UTjQg[6D@mD3;WCE3X<P2
+dC:\DSP\MusicPlayer\sim
+w1401089770
+FC:/DSP/MusicPlayer/src/music_player.v
+L0 3
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vmusic_player_tb_v
+IhoW]B5VFdG_CLg>^NM9e;1
+VY]^D?]URnPe]NX?4ZD0j]1
+dC:\DSP\MusicPlayer\sim
+w1394031480
+FC:/DSP/MusicPlayer/src/music_player_tb.v
+L0 8
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vmusic_player_top
+I:f3Ie7d@3;>`OH^0cUOZ01
+VdjAcdL>D32OjbiK>Xn<0=3
+dC:\DSP\MusicPlayer\sim
+w1398672207
+FC:/DSP/MusicPlayer/src/music_player_top.v
+L0 1
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vnote_player
+ILUAhPgzl33k:7I[Cb@JJV2
+VU?WmG=h8N_28hH0Q>:SL51
+dC:\DSP\MusicPlayer\sim
+w1401159519
+FC:/DSP/MusicPlayer/src/note_player.v
+L0 1
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vnote_player_tb_v
+I2NE`CLgaV5i^D9fCl;@Q=0
+Vm032QLYBFRDGRnD@?3hc>1
+dC:\DSP\MusicPlayer\sim
+w1401093148
+FC:/DSP/MusicPlayer/src/note_player_tb.v
+L0 8
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vone_pulse
+I>>X[Q8CeMfPI<[P=4_GR<0
+VU]Vj@j]K94gDma<z@7oa@3
+dC:\DSP\MusicPlayer\sim
+w1394031480
+FC:/DSP/MusicPlayer/src/one_pulse.v
+L0 5
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vsine_reader
+IV9E:<Q5d?Lhhh_zA7aTEg1
+VH:^:ComaL9Ho5=A0Ccd1d3
+dC:\DSP\MusicPlayer\sim
+w1401090470
+FC:/DSP/MusicPlayer/src/sine_reader.v
+L0 1
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vsine_reader_tb_v
+IejLT^4BCNCZ4b6?e9^NmW2
+VM]W<L1PaC[M7Y6UWDXNjE1
+dC:\DSP\MusicPlayer\sim
+w1399875902
+FC:/DSP/MusicPlayer/src/sine_reader_tb.v
+L0 8
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vsine_rom
+I69a1SCeOL^nhR4BQgYnVe2
+VNggn@^Bde2h7_U0;dDmb^3
+dC:\DSP\MusicPlayer\sim
+w1400435822
+FC:/DSP/MusicPlayer/src/sine_rom.v
+L0 1
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vsong_reader
+IRND4fVnLECWQOgZ]W7lXi1
+VU4V]P;B``m;OCCO2UjR?<2
+dC:\DSP\MusicPlayer\sim
+w1401093318
+FC:/DSP/MusicPlayer/src/song_reader.v
+L0 1
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vsong_reader_tb_v
+I0YkQd9<z<a@8oW]E_gTH73
+VjNTDRGmNjc]4PbL:z4GDb3
+dC:\DSP\MusicPlayer\sim
+w1401085579
+FC:/DSP/MusicPlayer/src/song_reader_tb.v
+L0 9
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vsong_rom
+I35Z7N1mRkJTf7nC0lNG9B3
+VO0FT^DFA3jfLF]PORQ9NT0
+dC:\DSP\MusicPlayer\sim
+w1400482416
+FC:/DSP/MusicPlayer/src/song_rom.v
+L0 12
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
+vtime_counter
+I7ON_LoLXjgg=U[^^E]`g@3
+VKjZLCWKEL_n>m[=>3=d:@2
+dC:\DSP\MusicPlayer\sim
+w1401089785
+FC:/DSP/MusicPlayer/src/beat_generater.v
+L0 1
+OE;L;6.0c;29
+r1
+31
+o-work work
+tGenerateLoopIterationMax 100000
